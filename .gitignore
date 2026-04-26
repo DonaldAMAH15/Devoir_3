@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environnements et IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Données brutes volumineuses (on ne versionne pas le dump SQL)
+data/raw/*.sql
+data/raw/*.zip
+
+# Modèles entraînés volumineux (on garde le .pkl léger)
+models/*.bin
+models/*.h5
+
+# Logs
+*.log
+
+# Microsoft Office lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
